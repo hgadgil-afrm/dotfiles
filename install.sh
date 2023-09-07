@@ -12,8 +12,6 @@ dotfs=$(cd $(dirname $0) && pwd)
 
 sym "$dotfs"
 
-git clone git@github.com:hgadgil-afrm/SecretDotfiles.git ~/.dotfiles/SecretDotfiles
-
-export PATH=$PATH:~/.dotfiles/SecretDotfiles
-
-~/.dotfiles/SecretDotfiles/install.sh
+# git clone git@github.com:hgadgil-afrm/SecretDotfiles.git ~/.dotfiles/SecretDotfiles
+# export PATH=$PATH:~/.dotfiles/SecretDotfiles
+# ~/.dotfiles/SecretDotfiles/install.sh
