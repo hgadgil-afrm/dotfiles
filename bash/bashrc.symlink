@@ -68,9 +68,9 @@ fi
 # Change the prompt
 PS1="\$(prev_func_err)"
 # Username or custom tag and "in"
-PS1+="\[$COLOR_PROMPT\]\$custom_whoami\[$COLOR_WHITE\] in "
+PS1+="\[$COLOR_PROMPT\]\u@\h\[$COLOR_WHITE\]:"
  # Basename of dir
-PS1+="\[$COLOR_CYAN\]\W\[$COLOR_WHITE\]"
+PS1+="\[$COLOR_CYAN\]\w\[$COLOR_WHITE\] "
 # Branch and color
 PS1+="\[\$(git_color)\]\$(git_branch)"
 # Trailing `$`
